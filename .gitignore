@@ -1,0 +1,21 @@
+# --- Backend (Java/Maven) ---
+DraftBox-backend/target/
+DraftBox-backend/.mvn/
+DraftBox-backend/.idea/
+*.iml
+*.class
+
+# --- Frontend (Node/Vite) ---
+DraftBox-frontend/node_modules/
+DraftBox-frontend/dist/
+DraftBox-frontend/.env
+
+# --- IDE / OS ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Secrets (never commit these) ---
+**/application-secrets.yml
+**/*.env
